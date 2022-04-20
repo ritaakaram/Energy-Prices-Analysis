@@ -4,14 +4,15 @@
 Perform exploratory analysis on an ingested dataset and take the analysis further by bringing advanced analytics (introducing graph processing & machine learning processing)
 
 
-Our big data pipeline was as follows:
-1. Sources: 
+Our **big data pipeline** was as follows:
+1. **Sources**: 
 * 12,096 tweets including #EnergyPrices ingested through 7 days
 * Statista dataset of energy prices in 55 countries
 * Github dataset of 1.6M tweets categorized b/w positive and negative emotions
-3. Ingestion via Nifi
-4. Storage via HDFS
-5. Serving through MongoDB
+2. **Ingestion** via Nifi
+3. **Storage** via HDFS
+4. **Processing** via Apache Spark, MLLib, GraphFrames
+5. **Serving** through MongoDB
 
 
 We covered the following sections:
